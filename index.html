@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Materialize has a dependency to font awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" 
+  integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+  <title>Task List</title>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav class="white">
+    <div class="nav-wrapper container">
+      <ul class="right">
+        <li><a href="https://github.com/missTammyy/taskPlanner" id="navBar">gitHub home</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- Upper App banner -->
+  <div class="parallax-container valign-wrapper">
+    <div class="row center">
+      <br></br>
+      <h4 class="white-text">Your Personalized Task Planner</h4>
+      <h5 class="white-text">Daily tasks made easy</h5>
+    </div>
+    <div class="parallax"><img src="resources/combi3_12.jpg"></div>
+  </div>
+ <!-- Main Content/ Functionality -->
+ <div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="col s6">
+        <h5 class="center light">Task Planner</h5>
+        <p class="light">I am your daily task organizer. By writing, removing and filtering out your tasks, as well as tracking the time it took to finish each, you'll be able to accomplish all your day-to-day goals and become better organized in no time!</p>
+        <form id="task-form">
+          <div class="input-field col s12">
+            <input type="text" name="task" id="task">
+            <label for="task">New Task</label>
+          </div>
+            <input type="submit" value="Add Task" class="btn" id="addBtn">
+        </form> 
+      </div>
+      <div class="col s6">
+        <h5 class="center light">Completed Tasks</h5>
+        <p id="initText" class="center light">There are no completed tasks yet.</p>
+        <ul id="completedTasks" class="collection"></ul>  
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h5 id="Task Title" class="light">My Tasks</h5>
+        <div class="input-field col s12">
+          <input type="text" name="filter" id="filter">
+          <label for="filter">Filter Task</label>
+        </div>
+        <ul id="taskList" class="collection"></ul>
+        <a href="#" class="clear-tasks btn">Clear Tasks</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Bottom App banner -->
+  <div class="parallax-container valign-wrapper">
+    <div class="row center">
+      <h5 class="white-text">Boost your confidence through self-organization</h5>
+    </div>
+    <div class="parallax"><img src="resources/combi3_2.jpg"></div>
+  </div>
+  <!-- Bottom text section-->
+  <div class="container">
+    <div class="section center" id="bottomSection">
+      <h5>Take a moment to reflect</h5>
+      <p class="left-align light">
+       Self-reflection is a very powerful technique which helps us become even better organized. In order to practice 
+       self-reflection, try to answer the following questions at the end of each day: How did you manage your daily tasks
+       today? What went well? What helped you achieve your goals? How will you apply this again in the future?
+       Where did you struggle? What obstacles did you encounter? What made it hard to finish particular tasks? What can you learn from that?
+       By answering these simple questions, you are enhancing your self-management even further. Take control.
+      </p>
+    </div>
+  </div>
+  <!--Scripts-->
+  <!-- Materialize has a dependency to jquery --> 
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="init.js"></script>
+  <script src="app.js"></script>
+</body>
+<footer class="page-footer white">
+  <div class="footer-copyright white">
+    <div class="container grey-text text-lighten-1">
+    © Images designed by Freepik
+    </div>
+  </div>
+</footer>
+</html>

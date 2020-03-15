@@ -1,0 +1,26 @@
+.collection li a i {
+  color: #4db6ac;
+}
+
+#addBtn {
+  background-color: #DFE200;
+  color: black;
+}
+
+#navBar {
+  color: black;
+}
+
+.parallax-container {
+  height: 450px;
+}
+
+#bottomSection {
+  padding-top: 30px;
+}
+
+.section {
+  padding-top: 20px;
+}
+
+
