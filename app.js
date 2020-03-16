@@ -148,7 +148,7 @@ function clearCompletedTasks(e) {
 
 function filterTasks(e) {
   const text = e.target.value.toLowerCase();
-  document.querySelectorAll('li').forEach
+  taskList.querySelectorAll('li').forEach
   (function(task) {
     const item = task.textContent;
     if(item.toLowerCase().includes(text)) {
