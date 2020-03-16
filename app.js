@@ -78,12 +78,10 @@ let taskTimes = {};
 
 function displayTime() {
   taskTimes['time1']++;
-  console.log(taskTimes['time1']);
   for(i = 1; i <= timerCounter; i++) {
     if(document.querySelector(`#timer${i}`) === null) {
       continue;
     }
-    console.log("this is i: " + i);
     let currentTaskTime = taskTimes['time1'];
     if(i !== 1) {
       currentTaskTime = taskTimes['time1'] - taskTimes[`time${i}`];
@@ -106,9 +104,6 @@ function displayTime() {
     if (hrs >= 24) {
       // placeholder for error handling
     }
-    console.log(hrs);
-    console.log(min);
-    console.log(sec);
     document.querySelector(`#timer${i}`).innerHTML = hrs + ":" + min + ":" + sec;
   }
 }
