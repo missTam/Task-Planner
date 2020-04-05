@@ -1,5 +1,5 @@
 # Task Planner
-A web app for adding, filtering out and deleting tasks, as well as tracking the time it took to finish each
+A web app for adding, filtering out and deleting tasks. Includes a time tracking feature for measuring time required to finish each task.
 
 # Tools & Technologies
 VanillaJS and local storage
