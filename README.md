@@ -9,4 +9,5 @@ Materialize framework v1.0.0
 
 # Credits
 [Materialize](https://materializecss.com/)
+
 Images designed by [Freepik](https://www.freepik.com/)
