@@ -12,7 +12,7 @@ Materialize framework v1.0.0
 
 # Screenshots
 
-<img src="images/top.PNG">
+<img src="images/ttop.PNG">
 <img src="images/bottom.PNG">
 
 # Credits
