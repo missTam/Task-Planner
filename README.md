@@ -1,21 +1,21 @@
-# Task Planner
+## Task Planner
 
 A web app for adding, filtering out and deleting tasks. Includes a time tracking feature for measuring time required to finish each task.
 
-# Tools & Technologies
+## Tools & Technologies
 
 VanillaJS and local storage
 
-# Design
+## Design
 
 Materialize framework v1.0.0
 
-# Screenshots
+## Screenshots
 
 <img src="images/ttop.PNG">
 <img src="images/bbottom.PNG">
 
-# Credits
+## Credits
 
 [Materialize](https://materializecss.com/)
 
