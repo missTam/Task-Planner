@@ -4,7 +4,7 @@ A web app for adding, filtering out and deleting tasks. Includes a time tracking
 
 ## Tools & Technologies
 
-VanillaJS and local storage
+VanillaJS
 
 ## Design
 
